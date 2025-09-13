@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Como cuidar do seu catéter venoso da hemodiálise</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        font-size: 1.25rem;
+      }
+      p {
+        text-indent: 1.5rem;
+        text-align: justify;
+        color: #374151;
+        margin-bottom: 1rem;
+        line-height: 2rem;
+      }
+      .material-icons {
+        font-family: "Material Icons";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+  </head>
+  <body class="antialiased">
+    <!-- Menu Flutuante Lateral -->
+    <nav
+      id="floating-menu"
+      class="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 hidden lg:block"
+    >
+      <div class="py-3 px-2">
+        <ul class="space-y-3">
+          <li>
+            <a
+              href="#hero"
+              class="nav-dot block w-3 h-3 rounded-full bg-gray-300 hover:bg-yellow-500 transition-colors duration-200 relative group"
+              title="Início"
+            >
+              <span
+                class="absolute right-6 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none"
+                >Início</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="#introducao"
+              class="nav-dot block w-3 h-3 rounded-full bg-gray-300 hover:bg-yellow-500 transition-colors duration-200 relative group"
+              title="Para quê serve o catéter venoso?"
+            >
+              <span
+                class="absolute right-6 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none"
+                >Para quê serve o catéter venoso?</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="#tutorial"
+              class="nav-dot block w-3 h-3 rounded-full bg-gray-300 hover:bg-yellow-500 transition-colors duration-200 relative group"
+              title="Cuidados residenciais"
+            >
+              <span
+                class="absolute right-6 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none"
+                >Cuidados residenciais</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="#alertas"
+              class="nav-dot block w-3 h-3 rounded-full bg-gray-300 hover:bg-yellow-500 transition-colors duration-200 relative group"
+              title="Sinais de alerta"
+            >
+              <span
+                class="absolute right-6 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none"
+                >Sinais de alerta</span
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section
+      id="hero"
+      class="min-h-screen bg-slate-800 text-white flex items-center"
+    >
+      <div class="max-w-7xl mx-auto mb-5 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-8 items-center">
+          <!-- Linha do título -->
+          <h2
+            class="md:col-span-2 text-2xl md:text-1xl text-center mt-8 md:mt-0 md:mb-8 md:text-right text-slate-200"
+          >
+            <span class="font-[Noto_Serif]"
+              >Desmistificando a hemodiálise
+            </span>
+          </h2>
+          <!-- Coluna de Texto -->
+          <div>
+            <span
+              class="text-sm font-medium text-yellow-400 uppercase tracking-wider"
+            >
+              Guia do paciente
+            </span>
+            <h1
+              class="text-4xl md:text-6xl font-bold font-[Open_Sans] text-white mt-2 md:mt-6"
+            >
+              Você sabe cuidar do seu cateter venoso para a hemodiálise?
+            </h1>
+            <span class="block mt-6 md:mt-6 text-slate-200 md:w-3/4">
+              Pequenos cuidados diários fazem toda a diferença. Descubra como
+              manusear seu cateter venoso com segurança e evitar complicações na
+              saúde.
+            </span>
+            <a
+              href="#introducao"
+              class="inline-block mt-8 md:mt-12 px-8 py-3 w-full md:w-fit text-center bg-yellow-400 text-slate-800 font-bold rounded-lg shadow-md hover:bg-yellow-600 transition duration-300"
+            >
+              Explorar o Guia
+            </a>
+          </div>
+          <!-- Coluna de Imagem -->
+          <img
+            src="assets/hero.webp"
+            alt="Ilustração de cuidado moderno"
+            class="w-full rounded-2xl shadow-xl object-cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Introdução -->
+    <section id="introducao" class="py-20 bg-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+          Para quê serve o cateter venoso?
+        </h2>
+        <div>
+          <p>
+            A hemodiálise é um tratamento médico em que uma máquina limpa e
+            filtra o sangue, agindo como um rim artificial, sendo essencial para
+            pessoas com doenças renais graves. A saída do sangue é feita por um
+            acesso venoso, que ocorre por meio de uma fístula arteriovenosa ou
+            de um cateter de hemodiálise, também chamado de cateter venoso
+            central. Este guia irá focar nesta última forma, destacando a
+            importância de seu cuidado.
+          </p>
+          <div class="mb-8">
+            <img src="/assets/hemodialise.png" alt="Hemodiálise" />
+            <div class="text-center">
+              <small class="text-base text-gray-600"
+                ><b>Fonte</b>: Sousa (2024)
+              </small>
+            </div>
+          </div>
+          <p class="mb-3">
+            Detalhando um pouco mais, o cateter é um tubo que é inserido em uma
+            grande veia, geralmente no pescoço ou na parte de cima do tórax.
+            Existem casos em que o uso do cateter é temporário (geralmente só
+            enquanto o paciente é preparado para fazer uma fístula), mas, em
+            alguns casos, o uso pode ser contínuo.
+          </p>
+
+          <p>
+            O uso do cateter, principalmente aqueles de longa duração, trás
+            alguns riscos para a saúde, como
+            <b>infecção e trombose</b>. Para evitar estas situações, é preciso
+            tomar alguns cuidados dários.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Tutorial de Cuidado -->
+    <section id="tutorial" class="pb-25">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-center items-center mb-5">
+          <div class="flex-grow mx-5 h-[2px] bg-gray-200"></div>
+          <div
+            class="w-15 h-15 bg-yellow-200 rounded-full flex items-center justify-center p-4"
+          >
+            <span
+              class="material-icons -pb-3 text-yellow-700 align-bottom"
+              style="font-size: 40px"
+              >home</span
+            >
+          </div>
+          <div class="flex-grow mx-5 h-[2px] bg-gray-200"></div>
+        </div>
+        <h2
+          class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8"
+        >
+          Cuidados residenciais
+        </h2>
+
+        <p class="text-gray-700">
+          Cuidar de um cateter venoso em casa é uma grande responsabilidade. É
+          de extrema importância conversar com seu médico pedindo orientações
+          sobre como este cuidado deve ser feito e, de preferência, comm algum
+          familiar ou cuidador, para que essa pessoa também possa ajudar com
+          responsabilidades diárias.
+        </p>
+        <p class="mb-12">
+          Abaixo separamos algumas dicas de como cuidar corretamente do cateter
+          venoso:
+        </p>
+        <ul class="mb-10">
+          <li
+            class="w-full p-6 border-b-3 border-orange-100 flex flex-col md:flex-row gap-5 md:gap-0 items-center md:space-x-6"
+          >
+            <div
+              class="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-yellow-100 text-yellow-700 font-bold rounded-full text-xl"
+            >
+              1
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-800 text-center md:text-left">
+                Higienização
+              </h3>
+              <span class="block mt-1 text-gray-600 text-justify">
+                Antes de tocar no cateter ou no curativo, higienize bem as mãos
+                com água e sabão ou com álcool em gel a 70%. Ele não deve ser
+                manuseado por outra pessoa que não seja um profissional da
+                equipe de diálise.
+              </span>
+            </div>
+            <img
+              src="assets/lavar a mão.webp"
+              class="h-30 w-30 object-cover rounded-xl mx-auto md:ml-auto"
+              alt=""
+            />
+          </li>
+          <li
+            class="w-full p-6 border-b-3 border-orange-100 flex flex-col md:flex-row gap-5 md:gap-0 items-center md:space-x-6"
+          >
+            <div
+              class="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-yellow-100 text-yellow-700 font-bold rounded-full text-xl"
+            >
+              2
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-800 text-center md:text-left">
+                Fixação do cateter
+              </h3>
+              <span class="block mt-1 text-gray-600 text-justify">
+                Certifique-se de que o cateter esteja preso em suportes
+                especiais em fita adesiva.
+              </span>
+            </div>
+            <img
+              src="assets/fixação.png"
+              class="h-30 w-30 object-cover mx-auto md:mr-0 rounded-xl"
+              alt=""
+            />
+          </li>
+          <li
+            class="w-full p-6 border-b-3 border-orange-100 flex flex-col md:flex-row gap-5 md:gap-0 items-center md:space-x-6"
+          >
+            <div
+              class="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-yellow-100 text-yellow-700 font-bold rounded-full text-xl"
+            >
+              3
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-800 text-center md:text-left">
+                Banho
+              </h3>
+              <span class="block mt-1 text-gray-600 text-justify">
+                O curativo e o cateter não podem se molhar. Durante o banho,
+                proteja o curativo do cateter com plástico e fita adesiva, ou
+                tome banho com esponjas com cuidado.
+              </span>
+            </div>
+            <img
+              src="assets/banho.jpg"
+              class="h-30 w-30 object-cover mx-auto md:mr-0 rounded-xl"
+              alt=""
+            />
+          </li>
+          <li
+            class="w-full p-6 border-b-3 border-orange-100 flex flex-col md:flex-row gap-5 md:gap-0 items-center md:space-x-6"
+          >
+            <div
+              class="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-yellow-100 text-yellow-700 font-bold rounded-full text-xl"
+            >
+              4
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-800 text-center md:text-left">
+                Evite exposições
+              </h3>
+              <span class="block mt-1 text-gray-600 text-justify">
+                Evite expor o cateter diretamente ao Sol, banho de banheiras,
+                saunas, piscinas, rios, lagos ou praias. Não abra o curativo
+                desnecessariamente para não expor o cateter.
+              </span>
+            </div>
+            <img
+              src="assets/natação.png"
+              class="h-30 w-30 object-cover mx-auto md:mr-0 rounded-xl"
+              alt=""
+            />
+          </li>
+          <li
+            class="w-full p-6 border-b-3 border-orange-100 flex flex-col md:flex-row gap-5 md:gap-0 items-center md:space-x-6"
+          >
+            <div
+              class="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-yellow-100 text-yellow-700 font-bold rounded-full text-xl"
+            >
+              5
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-800 text-center md:text-left">
+                Posição de dormir
+              </h3>
+              <span class="block mt-1 text-gray-600 text-justify">
+                Não durma sobre o lado do corpo onde está o cateter para não
+                machucar e facilitar sangramentos.
+              </span>
+            </div>
+            <img
+              src="assets/dormir.png"
+              class="h-30 w-30 object-cover mx-auto md:mr-0 rounded-xl"
+              alt=""
+            />
+          </li>
+          <li
+            class="w-full p-6 border-b-3 border-orange-100 flex flex-col md:flex-row gap-5 md:gap-0 items-center md:space-x-6"
+          >
+            <div
+              class="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-yellow-100 text-yellow-700 font-bold rounded-full text-xl"
+            >
+              6
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-800 text-center md:text-left">
+                Roupas e tração
+              </h3>
+              <span class="block mt-1 text-gray-600 text-justify">
+                Evite usar roupas apertadas ou com zíper sobre o cateter. Para
+                não danificar o dispositivo, não dobre, puxe ou tracione o
+                cateter sob a roupa. Também é bom evitar atividades que tenham
+                movimentos bruscos, como esportes de contato.
+              </span>
+            </div>
+            <img
+              src="assets/camisa.jpeg"
+              class="h-30 w-30 object-cover mx-auto md:mr-0 rounded-xl"
+              alt=""
+            />
+          </li>
+          <li
+            class="w-full p-6 my-4 flex flex-col md:flex-row gap-5 md:gap-0 items-center md:space-x-6"
+          >
+            <div
+              class="flex-shrink-0 flex items-center justify-center w-12 h-12 bg-yellow-100 text-yellow-700 font-bold rounded-full text-xl"
+            >
+              7
+            </div>
+            <div>
+              <h3 class="font-semibold text-gray-800 text-center md:text-left">
+                Atenção à troca do curativo
+              </h3>
+              <span class="block mt-1 text-gray-600 text-justify">
+                Caso o curativo molhe, fique sujo ou se solte, troque-o no
+                serviço de diálise. Lembre-se que o ideal é que ele se mantenha
+                limpo e seco.
+              </span>
+            </div>
+            <img
+              src="assets/equipe.jpg"
+              class="h-30 w-30 object-cover mx-auto md:mr-0 rounded-xl"
+              alt=""
+            />
+          </li>
+        </ul>
+        <div class="bg-orange-100 text-center py-3 rounded-xl">
+          <span>
+            Lembre-se que este guia complementa, mas não substitui as
+            orientações da equipe de saúde 😉
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Sinais de Alerta -->
+    <section id="alertas" class="pb-25">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-center items-center mb-5">
+          <div class="flex-grow mx-5 h-[2px] bg-gray-200"></div>
+          <div
+            class="w-15 h-15 bg-red-100 rounded-full flex items-center justify-center p-4 mb-5"
+          >
+            <span
+              class="material-icons -pb-3 text-red-500 align-bottom"
+              style="font-size: 40px"
+              >warning</span
+            >
+          </div>
+          <div class="flex-grow mx-5 h-[2px] bg-gray-200"></div>
+        </div>
+
+        <h2
+          class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8"
+        >
+          Sinais de alerta
+        </h2>
+
+        <p>
+          O uso de um cateter de hemodiálise pode levar a várias complicações
+          que põem em risco a vida do paciente. Alguns exemplos são:
+          <b>infecção</b> (mais comum), <b>trombose</b>,
+          <b>deslocamento do cateter</b> e <b>hemorragia</b>.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+          <div
+            class="flex flex-col justify-center items-center rounded-lg p-6 bg-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <img src="assets/Febre.svg" class="w-8" />
+            </div>
+            <span class="font-bold text-center">Febre e calafrios</span>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center rounded-lg p-6 bg-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <span class="material-icons text-red-600" style="font-size: 28px"
+                >healing</span
+              >
+            </div>
+            <span class="font-bold text-center"
+              >Vermelhidão, ardência ou pus</span
+            >
+          </div>
+          <div
+            class="flex flex-col justify-center items-center rounded-lg p-6 bg-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <img src="/assets/Catéter quebrado.svg" class="w-8" alt="" />
+            </div>
+            <span class="font-bold text-center"
+              >Cateter quebrado, rachado ou fora do lugar</span
+            >
+          </div>
+          <div
+            class="flex flex-col justify-center items-center rounded-lg p-6 bg-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <img src="assets/Sangue.svg" class="w-8" />
+            </div>
+            <span class="font-bold text-center"
+              >Vazamento de sangue pelo catéter</span
+            >
+          </div>
+          <div
+            class="flex flex-col justify-center items-center rounded-lg p-6 bg-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <span class="material-icons text-red-600" style="font-size: 28px"
+                >air</span
+              >
+            </div>
+            <span class="font-bold text-center"
+              >Falta de ar ou dor no peito</span
+            >
+          </div>
+          <div
+            class="flex flex-col justify-center items-center rounded-lg p-6 bg-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <span class="material-icons text-red-600" style="font-size: 28px"
+                >face</span
+              >
+            </div>
+            <span class="font-bold text-center"
+              >Inchaço no rosto, pescoço ou peito</span
+            >
+          </div>
+          <div
+            class="lg:col-start-2 flex flex-col justify-center items-center rounded-lg p-6 bg-slate-100"
+          >
+            <div
+              class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4"
+            >
+              <img src="assets/Veia.svg" class="w-8" />
+            </div>
+            <span class="font-bold text-center"
+              >Veias inchadas na entrada do cateter</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Caixa de Alerta Importante -->
+      <div class="my-10">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="bg-red-100 rounded-2xl border p-8 text-center border-l-8 border-red-500"
+          >
+            <div class="mb-4">
+              <span class="text-xl text-red-600 font-bold">
+                Não ignore os sinais do seu corpo!
+              </span>
+            </div>
+            <span class="block text-xl text-gray-800">
+              Na presença de qualquer um dos sintomas acima,
+              <strong>vá ao seu hospital de referência imediatamente!</strong>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center">
+        <img
+          src="assets/Catéter inflamado.jpg"
+          class="w-3/4 md:w-fit mb-3"
+          alt=""
+        />
+        <small class="text-base text-gray-600"
+          ><b>Fonte: </b> Charmaine (2021)
+        </small>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-slate-800 text-slate-300">
+      <div class="text-center max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-5 font-bold italic">
+          <span> Desmistificando a hemodiálise (2024)</span>
+        </div>
+        <div>
+          <span
+            >Material elaborado por: Paulo, Rayanne, Fagner, Luma Gusmão e
+            Mateus Moura.</span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="scripts/script.js"></script>
+</html>
